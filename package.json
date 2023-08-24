@@ -1,0 +1,29 @@
+{
+  "name": "qa-porto",
+  "version": "1.0.0",
+  "description": "Practice endpoint",
+  "main": "index.js",
+  "scripts": {
+    "test get": "mocha test/api/getApi.js",
+    "test post": "mocha test/api/postUser.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggrendi26/myskill-practice-jsapi.git"
+  },
+  "author": "grendi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggrendi26/myskill-practice-jsapi/issues"
+  },
+  "homepage": "https://github.com/ggrendi26/myskill-practice-jsapi#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "pet": "^1.0.1",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.10"
+  }
+}
